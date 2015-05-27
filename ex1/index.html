@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="Windows-1252">
+		<link rel="stylesheet" href="estilo.css">
+		<title>Exercicio 1 - FORMULARIO AJAX</title>
+	</head>
+	
+	<body>
+	
+		<form id="formulario" >
+		
+				<fieldset id="campo">
+				
+					<legend>Cadastro de Pessoa Física</legend>
+					<p> 
+						<label for="nome">Nome:  
+						<input type="text" name="nomepessoa" id="nome" maxlength="30" title="apenas letras, maiúsculas ou minúsculas" pattern="[a-zA-z]{1,26}" />  
+						</label>
+					</p>
+					
+					<p>
+						<label for="ident">Identidade:
+						<input type="number" name="identidade" id="ident" pattern="[a-z][0-9]" />  
+						</label>
+					</p>
+					
+					<p>
+						<label for="tel">Telefone:
+						<input type="number" name="numerotelefone" id="tel" pattern="[0-9]"/>  
+						</label>
+					</p>				
+					
+				<input type="submit" name="save" id="botaosalvar" value="SALVAR">
+				
+				 <input type="button" name="load" id="botaocarregar" value="CARREGAR" ></button>
+				
+				</fieldset>		
+			  
+				
+			<br><br>
+			   
+		</form>
+	
+	</body>
+	
+	<script src="script.js"></script>
+	
+</html>
